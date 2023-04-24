@@ -1,0 +1,43 @@
+:root {
+  --backgroundcolor: #1c1a23;
+  --darktextcolor: #5d5d5d;
+  --lighttextcolor: #a39eb8;
+  --mainsize: 2.5rem;
+  --tilebackground: #282533;
+  --bordercolor: #b7b7b733;
+}
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-menu {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar a {
+  text-decoration: none;
+  color: var(--darktextcolor);
+}
+.nav-menu li {
+  list-style-type: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--darktextcolor);
+}
+.nav-menu a:hover {
+  color: var(--lighttextcolor);
+  transition: 0.35s;
+  cursor: pointer;
+}
+.nav-item {
+  margin: 0 50px;
+}
+#profile-pic {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  margin: 20px;
+}

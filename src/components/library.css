@@ -1,0 +1,45 @@
+h1 {
+  font-size: var(--mainsize);
+  color: white;
+}
+p,
+h3 {
+  margin: 0;
+}
+p {
+  font-size: 12px;
+  margin: 3px 0;
+}
+.library-section img {
+  height: 150px;
+  width: 150px;
+  border-radius: 10px;
+}
+.library-section {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: auto;
+  row-gap: 40px;
+}
+.library-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.library-item {
+  padding: 25px;
+  border-radius: 10px;
+  /* border: 1px solid var(--lighttextcolor); */
+  margin: 0 20px;
+  box-shadow: 0px 0px 15px var(--lighttextcolor);
+  background-color: var(--tilebackground);
+}
+.library-item:hover {
+  background-color: var(--lighttextcolor);
+  color: var(--backgroundcolor);
+  transition: 0.3s;
+}
+.library-item h3 {
+  margin-top: 5px;
+}
